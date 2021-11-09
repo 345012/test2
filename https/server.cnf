@@ -1,0 +1,14 @@
+[req]
+default_bits = 2048
+prompt = no
+default_md = sha256
+distinguished_name = dn
+
+[dn]
+C=CN
+ST=libra
+L=libra
+O=libra
+OU=Server
+emailAddress=jacob.j@qq.com
+CN = localhost
