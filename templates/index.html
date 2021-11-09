@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Exercise everyday 1minute</title>
+
+  <link href="./css/style.css" rel="stylesheet" type="text/css" />
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0/lib/p5.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/p5@1.2.0/lib/addons/p5.sound.min.js" crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/ml5@0.5/dist/ml5.min.js"></script>
+  <script src="./lib/socket.io.min.js"></script>
+</head>
+
+<body>
+  <div id="container"></div>
+  <div id="rank">
+    <div class="btns">
+      <a href="/logout">log out</a>
+    </div>
+    <div class="title">Rank</div>
+    <div id="rank-list"></div>
+  </div>
+</body>
+
+<script src="./js/sketch.js"></script>
+<script src="./js/io.js"></script>
+<script src="./js/notify.js"></script>
+</html>
